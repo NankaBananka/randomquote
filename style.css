@@ -1,0 +1,112 @@
+html{
+  height: 100%;
+}
+
+
+
+body{
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #f4e1d2;
+  background-color: #50394c;
+  text-align: center;
+  overflow: scroll;
+  min-height: 100%;
+}
+
+main{
+  margin: 1%;
+}
+
+h1{
+  margin: 3%;
+  font-weight: bold;
+}
+
+#about{
+  margin: 1%;
+  font-style: italic;
+}
+
+#quoteplace{
+  background-color:  #ffef96;
+  padding:  20px;
+  margin:  1% 0 1% 0;
+  height:  200px;
+  border: solid 1px #000000;
+  border-radius: 5px;  
+  padding: 1%;
+  font-size: 110%;
+}
+
+#quotetext{
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 150px;
+  color: #000000;
+  border-left: double #50394c;
+  padding: 10px;
+
+}
+
+#quoteauthor{
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #b2b2b2;
+}
+
+.btn{
+  width: 130px;
+  height: 50px;
+  border: outset;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#tweet{
+  margin-top: 1%;
+  margin-bottom: 55px;
+}
+
+#quote{
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+
+footer{
+  position: fixed;
+  z-index: -1;
+  bottom: 2%;
+  width: 98%;
+  margin: 0 1% 1% 1%;
+  padding: 0 1% 0 1%;
+  height: 32px;
+  border-top: double #b2b2b2;
+  vertical-align: middle;
+}
+
+#footerRight {
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+  text-align: right;;
+
+}
+
+#footerLeft {
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+}
+
+i:hover{
+  opacity: 0.5;
+}
+
+
